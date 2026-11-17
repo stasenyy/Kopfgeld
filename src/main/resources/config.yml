@@ -1,0 +1,9 @@
+# Alle Zeiten in Sekunden
+border-start-size: 50          # Border vor dem Start
+border-end-size: 3000          # Border nach dem Start
+border-expand-seconds: 15      # So lange dauert das Vergroessern
+initial-wait-seconds: 300      # Timer bis zur ersten Auslosung (5 Min)
+hunt-seconds: 900              # Zeit zum Killen des Ziels (15 Min)
+wait-increase-seconds: 300     # Pause wird nach jedem Kopfgeld um so viel laenger (+5 Min)
+ban-on-fail: true              # Wer sein Ziel nicht killt, stirbt und wird gebannt
+ban-on-any-death: false        # true = jeder Tod im Spiel bedeutet Bann (Last-Man-Standing)
